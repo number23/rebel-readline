@@ -17,4 +17,7 @@
                  [compliment "0.3.6"]]
 
   :profiles {:dev {:source-paths ["src" "dev"]
-                   :main rebel-dev.main}})
+                   :main rebel-dev.main}}
+  
+  :deploy-repositories [["releases" :clojars]
+                       ["snapshots" :clojars]])
