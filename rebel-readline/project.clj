@@ -1,4 +1,4 @@
-(defproject com.bhauman/rebel-readline "0.1.5-SNAPSHOT"
+(defproject org.clojars.number23/rebel-readline "0.1.5-SNAPSHOT"
   :description "Terminal readline library for Clojure dialects"
   :url "https://github.com/bhauman/rebel-readline"
   :license {:name "Eclipse Public License"
@@ -6,7 +6,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :scm {:name "git"
-        :url "https://github.com/bhauman/rebel-readline"
+        :url "https://github.com/number23/rebel-readline"
         :dir ".."}
 
   :dependencies [[org.clojure/clojure "1.8.0"]
